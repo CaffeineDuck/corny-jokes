@@ -2,16 +2,16 @@
   <div>
     <h1 class="text-center font-bold text-4xl pt-10">{{ type }} Joke</h1>
     <div
-      class="max-w-3xl rounded-lg lg:mx-auto lg:my-16 lg:py-16 py-8 lg:shadow-md bg-gray-200 text-center mx-4"
+      class="max-w-3xl rounded-lg lg:mx-auto lg:my-16 lg:py-16 py-8 my-4 lg:shadow-md bg-gray-200 text-center mx-4"
     >
       <!-- <h1 class="text-3xl font-bold text-blue-400">{{ title }}</h1> -->
-      <p class="text-2xl">{{ initial }}</p>
+      <p class="text-2xl px-2">{{ initial }}</p>
 
       <div class="flex text-center">
         <toggle-button class="justify-center content-center mx-auto py-4" @toggleButton="togglePunch" />
       </div>
 
-      <p v-bind:class="punchHidden ? 'hidden' : 'block'">{{ punch }}</p>
+      <p v-bind:class="punchHidden ? 'invisible' : 'visible'">{{ punch }}</p>
     </div>
 
 		<div class="mx-auto my-16 text-center">

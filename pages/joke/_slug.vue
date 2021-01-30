@@ -47,6 +47,8 @@ export default Vue.extend({
             .get(baseUrl + this.$route.params.slug)
             .then(res => {
             this.joke = res.data;
+            }).catch(error => {
+                this.newJoke()
             })
             console.log(this.joke)
         }
