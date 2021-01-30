@@ -1,5 +1,5 @@
 <template>
-  <h1 class="container">Gay Boi 123</h1>
+  <h1 class="container text-center font-bold text-4xl">Just a fun site to get jokes lmao</h1>
 </template>
 
 <script lang="ts">

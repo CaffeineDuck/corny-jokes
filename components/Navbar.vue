@@ -17,10 +17,11 @@
 						<nav>
 							<ul class="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
 								<li><nuxt-link class="nav-link" to="/about">About</nuxt-link></li>
-								<li><nuxt-link class="nav-link" to="/joke/bad-jokes">Bad Jokes</nuxt-link></li>
-								<li><nuxt-link class="nav-link" to="/joke/dad-jokes">Dad Jokes</nuxt-link></li>
-								<li><nuxt-link class="nav-link" to="/joke/anti-jokes">Anti Jokes</nuxt-link></li>
-								<li><nuxt-link class="nav-link" to="/joke/random-joke">Random Joke</nuxt-link></li>
+								<li><nuxt-link class="nav-link" to="/joke/programming">Programming Joke</nuxt-link></li>
+								<li><nuxt-link class="nav-link" to="/joke/misc">Misc Joke</nuxt-link></li>
+								<li><nuxt-link class="nav-link" to="/joke/spooky">Scary Joke</nuxt-link></li>
+								<li><nuxt-link class="nav-link" to="/joke/dark">Dark Joke</nuxt-link></li>
+								<li><nuxt-link class="nav-link" to="/joke/any">Random Joke</nuxt-link></li>
 							</ul>
 						</nav>
 					</div>
