@@ -1,12 +1,15 @@
 <template>
-	<div class="shadow-md p-6 flex m-3">
-		<div>
+	<div>
+		<div class="max-w-3xl rounded-lg mx-auto my-16 py-16 shadow-md bg-gray-200 text-center">
 			<h1 class="text-3xl text-black font-medium">About</h1>
 			<p class="text-2xl text-gray-500 font-medium">Get all the corny jokes you would ever want, here!</p>
-			<button @click="countAdd"> haha </button>
-			<p>count is {{count}}</p>
-		</div>
-  	</div>
+
+			<p class="text-xl text-blue-700 font-medium mx-4 mt-4 text-center">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nulla voluptatum inventore animi necessitatibus optio beatae expedita esse accusamus ea laboriosam voluptatem quos, aliquam, atque eum maxime facilis iure sunt.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim voluptate totam doloremque temporibus placeat eaque neque perspiciatis exercitationem amet libero. Maiores mollitia magnam qui accusantium consequuntur magni at quae ipsam.
+			</p>
+  		</div>
+	</div>
 </template>
 
 <script lang="ts">

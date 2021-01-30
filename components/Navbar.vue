@@ -2,7 +2,6 @@
   <div class="header">
       <header class="lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2">
           <div class="flex-1 flex justify-between items-center">
-
 						<nuxt-link to="/">
               <svg width="36" height="34" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
@@ -19,14 +18,15 @@
 					<div v-bind:class="(navHidden)? 'hidden': 'block'" class="lg:flex lg:items-center lg:w-auto w-full">
 						<nav>
 							<ul class="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
-								<li><nuxt-link class="nav-link" to="about">About</nuxt-link></li>
-								<li><nuxt-link class="nav-link" to="bad-jokes">Bad Jokes</nuxt-link></li>
-								<li><nuxt-link class="nav-link" to="dad-jokes">Dad Jokes</nuxt-link></li>
-								<li><nuxt-link class="nav-link" to="anti-jokes">Anti Jokes</nuxt-link></li>
-								<li><nuxt-link class="nav-link" to="racist-jokes">Racist Jokes</nuxt-link></li>
+								<li><nuxt-link class="nav-link" to="/about">About</nuxt-link></li>
+								<li><nuxt-link class="nav-link" to="/joke/bad-jokes">Bad Jokes</nuxt-link></li>
+								<li><nuxt-link class="nav-link" to="/joke/dad-jokes">Dad Jokes</nuxt-link></li>
+								<li><nuxt-link class="nav-link" to="/joke/anti-jokes">Anti Jokes</nuxt-link></li>
+								<li><nuxt-link class="nav-link" to="/joke/random-joke">Random Joke</nuxt-link></li>
 							</ul>
 						</nav>
 					</div>
+
       </header>
   </div>
 </template>
@@ -39,7 +39,7 @@ export default Vue.extend({
 		
 		data(){
 			return{
-				navHidden: false
+				navHidden: true
 			}
 		},
 
