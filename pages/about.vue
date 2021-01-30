@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<div class="max-w-3xl rounded-lg mx-auto my-16 py-16 shadow-md bg-gray-200 text-center">
+		<div class="max-w-3xl rounded-lg mx-auto lg:my-16 lg:py-16 py-8 lg:shadow-md bg-gray-200 text-center">
 			<h1 class="text-3xl text-black font-medium">About</h1>
 			<p class="text-2xl text-gray-500 font-medium">Get all the corny jokes you would ever want, here!</p>
 
@@ -25,7 +25,7 @@ export default Vue.extend({
 				{
 				hid: 'description',
 				name: 'description',
-				content: 'best place for corny dad jokes'
+				content: 'Best place for Corny Jokes!'
 				}
 			]
 		}
