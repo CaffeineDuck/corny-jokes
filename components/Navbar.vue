@@ -3,9 +3,7 @@
       <header class="lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2">
           <div class="flex-1 flex justify-between items-center">
 						<nuxt-link to="/">
-              <svg width="36" height="34" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-							</svg>
+              <Logo />
 						</nuxt-link>
 					</div>
 
@@ -33,9 +31,14 @@
 
 <script lang="ts">
 import Vue, { PropOptions } from 'vue';
+import Logo from './Logo.vue'
 
 export default Vue.extend({
 		name: 'Navbar',
+
+		components:{
+			Logo
+		},
 		
 		data(){
 			return{
@@ -45,9 +48,7 @@ export default Vue.extend({
 
 		methods: {
 			toggleNav(){
-				console.log(this.navHidden)
 				this.navHidden = ((this.navHidden)? false: true)
-				console.log(this.navHidden)
 			}
 		}
 })
